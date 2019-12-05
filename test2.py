@@ -25,7 +25,7 @@ class TestStringMethods(unittest.TestCase):
     # matches the given output. 
     def test_strip(self):         
         s = 'geeksforgeeks'
-        self.assertEqual(s.strip('geek'), 'sforgeek') 
+        self.assertEqual(s.strip('geek'), 'sforgeeks') 
   
     # Returns true if the string splits and matches 
     # the given output. 
